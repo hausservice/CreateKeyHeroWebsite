@@ -84,7 +84,7 @@ export default function App() {
           <div>
             <div className="inline-flex items-center gap-2 text-[#c9a84c] text-sm font-semibold mb-6 border border-[#c9a84c]/30 px-3 py-1 rounded-full">
               <span className="w-2 h-2 rounded-full bg-[#c9a84c] animate-pulse" />
-              24 Stunden Notdienst — Wien &amp; Umgebung
+              24 Stunden Notdienst — Graz &amp; Umgebung
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-[#f0ece3] leading-tight mb-6">
               Ihr Schlüssel<br />
@@ -92,7 +92,7 @@ export default function App() {
               Sicherheit.
             </h1>
             <p className="text-[#8a8f9a] text-lg mb-8 max-w-md leading-relaxed">
-              Key Hero — professioneller Schlüsseldienst in Wien. Schnell, zuverlässig und transparent. Türöffnung, Schlossaustausch, Einbruchschutz und mehr.
+              Key Hero — professioneller Schlüsseldienst in Graz. Schnell, zuverlässig und transparent. Türöffnung, Schlossaustausch, Einbruchschutz und mehr.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <CallButton className="flex items-center justify-center gap-2 bg-[#c9a84c] text-[#0d1117] font-bold px-6 py-3 rounded hover:bg-[#b8943e] transition-colors text-lg">
@@ -220,7 +220,7 @@ export default function App() {
             <PhoneIcon className="w-8 h-8 text-[#c9a84c]" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-[#f0ece3] mb-4">Ausgesperrt?<br /><span className="text-[#c9a84c] italic">Wir sind in 15 Min. da.</span></h2>
-          <p className="text-[#8a8f9a] text-lg max-w-lg mx-auto mb-8">Rund um die Uhr, 365 Tage im Jahr — Key Hero ist Ihr verlässlicher Notfallpartner in Wien und Umgebung.</p>
+          <p className="text-[#8a8f9a] text-lg max-w-lg mx-auto mb-8">Rund um die Uhr, 365 Tage im Jahr — Key Hero ist Ihr verlässlicher Notfallpartner in Graz und Umgebung.</p>
           <CallButton className="inline-flex items-center gap-3 bg-[#c9a84c] text-[#0d1117] font-bold text-xl px-8 py-4 rounded hover:bg-[#b8943e] transition-colors">
             <PhoneIcon className="w-6 h-6" />
             +68 120 137 520
@@ -253,7 +253,7 @@ export default function App() {
           <div className="rounded-lg overflow-hidden bg-[#0d1117] border border-[#2a3347] aspect-[4/3]">
             <img
               src="https://images.unsplash.com/flagged/photo-1564767609213-c75ee685263a?w=800&h=600&fit=crop&auto=format"
-              alt="Schlüsseldienst Wien"
+              alt="Schlüsseldienst Graz"
               className="w-full h-full object-cover opacity-80"
             />
           </div>
@@ -365,7 +365,7 @@ const whyUs = [
   {
     icon: <ClockIcon className="w-7 h-7" />,
     title: "15 Min. Reaktionszeit",
-    body: "Unser Team ist in Wien und Umgebung immer in der Nähe — durchschnittlich 15 Minuten bis zu Ihnen.",
+    body: "Unser Team ist in Graz und Umgebung immer in der Nähe — durchschnittlich 15 Minuten bis zu Ihnen.",
   },
   {
     icon: <EuroIcon className="w-7 h-7" />,
@@ -389,8 +389,8 @@ const whyUs = [
   },
   {
     icon: <MapPinIcon className="w-7 h-7" />,
-    title: "Wien & Umgebung",
-    body: "Wir sind in ganz Wien sowie im Umkreis von 30 km tätig — alle Bezirke, jede Uhrzeit.",
+    title: "Graz & Umgebung",
+    body: "Wir sind in ganz Graz sowie im Umkreis von 30 km tätig — alle Bezirke, jede Uhrzeit.",
   },
 ];
 
@@ -400,14 +400,14 @@ const pricing = [
     price: "79",
     sub: "Einfache Türöffnung ohne Beschädigung",
     highlight: false,
-    features: ["Normale Schlösser", "Tagdienst 07–22 Uhr", "Anfahrt Wien inklusive", "Fixpreis vor Ort"],
+    features: ["Normale Schlösser", "Tagdienst 07–22 Uhr", "Anfahrt Graz inklusive", "Fixpreis vor Ort"],
   },
   {
     title: "Türöffnung Notdienst",
     price: "129",
     sub: "24/7 Notöffnung inkl. Nacht- und Wochenende",
     highlight: true,
-    features: ["Alle Schlosstypen", "24/7 inkl. Feiertage", "Anfahrt Wien inklusive", "15 Min. Reaktionszeit", "Fixpreis vor Ort"],
+    features: ["Alle Schlosstypen", "24/7 inkl. Feiertage", "Anfahrt Graz inklusive", "15 Min. Reaktionszeit", "Fixpreis vor Ort"],
   },
   {
     title: "Schlossaustausch",
@@ -421,42 +421,42 @@ const pricing = [
 const testimonials = [
   {
     name: "Sandra K.",
-    city: "Wien, 1030",
+    city: "Graz, 8010",
     date: "März 2024",
     rating: 5,
     text: "Innerhalb von 12 Minuten war der Techniker da und hatte die Tür in 3 Minuten geöffnet. Absolut professionell und faire Preise. Sehr empfehlenswert!",
   },
   {
     name: "Thomas W.",
-    city: "Wien, 1180",
+    city: "Graz, 8020",
     date: "Februar 2024",
     rating: 5,
     text: "Sonntagnacht ausgesperrt — Key Hero war die Rettung. Freundlich, schnell und der Preis war exakt wie am Telefon besprochen. Keine versteckten Kosten.",
   },
   {
     name: "Maria L.",
-    city: "Wien, 1100",
+    city: "Graz, 8042",
     date: "Jänner 2024",
     rating: 5,
     text: "Schlossaustausch nach Einbruchversuch. Die Beratung war sehr kompetent, das neue Schloss wurde sofort montiert. Fühle mich jetzt viel sicherer.",
   },
   {
     name: "Georg H.",
-    city: "Klosterneuburg",
+    city: "Graz, 8052",
     date: "Dezember 2023",
     rating: 5,
     text: "Schlüssel abgebrochen im Schloss. Key Hero hat das schnell und problemlos gelöst. Sehr netter Mitarbeiter, gute Arbeit!",
   },
   {
     name: "Petra M.",
-    city: "Wien, 1060",
+    city: "Graz, 8010",
     date: "November 2023",
     rating: 5,
     text: "Zweites Mal in kurzer Zeit den Dienst von Key Hero in Anspruch genommen — immer wieder top. Pünktlich, professionell, ehrliche Preise.",
   },
   {
     name: "Robert S.",
-    city: "Wien, 1140",
+    city: "Graz, 8036",
     date: "Oktober 2023",
     rating: 4,
     text: "Sehr guter Service, schnelle Reaktionszeit. Würde Key Hero jederzeit weiterempfehlen. Preis-Leistungs-Verhältnis stimmt.",
@@ -479,17 +479,12 @@ function ImpressumContent() {
         <p>Schlüsseldienst, Schlosserei, Sicherheitstechnik</p>
       </Section>
       <Section title="Behörde gem. ECG">
-        <p>Magistrat der Stadt Wien</p>
+        <p>Magistrat der Stadt Graz</p>
       </Section>
       <Section title="Mitglied bei">
-        <p>Wirtschaftskammer Wien, Fachgruppe Metalltechnische Gewerbe</p>
+        <p>Wirtschaftskammer Graz, Fachgruppe Metalltechnische Gewerbe</p>
       </Section>
-      <Section title="UID-Nummer">
-        <p>ATU12345678</p>
-      </Section>
-      <Section title="Firmenbuchnummer">
-        <p>FN 123456 x, Handelsgericht Wien</p>
-      </Section>
+
       <Section title="Haftungshinweis">
         <p>Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt verlinkter Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
       </Section>
@@ -548,7 +543,7 @@ function RichtlinienContent() {
         <p>Die Verarbeitung personenbezogener Daten erfolgt gemäß unserer Datenschutzerklärung und der DSGVO.</p>
       </Section>
       <Section title="§ 8 Gerichtsstand">
-        <p>Als Gerichtsstand wird Wien vereinbart. Es gilt österreichisches Recht.</p>
+        <p>Als Gerichtsstand wird Graz vereinbart. Es gilt österreichisches Recht.</p>
       </Section>
     </div>
   );

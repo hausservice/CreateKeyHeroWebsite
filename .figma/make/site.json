@@ -1,0 +1,11 @@
+{
+  "title": "Key Hero",
+  "description": "Key Hero connects users with reliable locksmith services, featuring customer reviews, privacy policies, and a gallery of relevant images for enhanced trust.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
